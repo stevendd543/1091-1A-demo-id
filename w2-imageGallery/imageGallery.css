@@ -1,0 +1,17 @@
+#line5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+#line5 img {
+  width: 30%;
+  margin: 1%;
+}
+p {
+  text-transform: uppercase;
+  font-size: 10ch;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 3cm;
+  border-bottom: 10px solid;
+  margin: 5%;
+}
