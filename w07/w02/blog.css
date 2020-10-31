@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 20px auto ;
+  padding: 20px ;
+  border: 20px solid #bdbdbd;
+  width: 70%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.date {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: aquamarine;
+  padding-bottom: 8px;
+}
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: blueviolet;
+  padding-bottom: 10px;
+  
+}
+.quote {
+  border-left: 3px solid;
+  padding-left: 10px;
+}
+.post-info {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.date1 {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: aquamarine;
+
+  padding-top: 10px;
+}
