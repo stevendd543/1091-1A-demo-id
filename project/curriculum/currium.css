@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+ padding: 100px auto;
+ height: 200vh;
+  
+}
+.container{
+
+background-color: rgb(228, 235, 236,0.7);
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+.icon{
+  position: absolute;
+  top: 45px;
+  left: 200px;
+ cursor: pointer;
+}
+.imgp img{
+  position: absolute;
+  right: 185px;
+  top: 55px;
+}
+.img.show{
+  transform: translateX(-50px);
+}
+.nav{
+  background-color: rgba(228, 235, 236);
+    padding:35px;
+    width: 100%;
+    height: 60px; 
+}
+.content{
+  width: 100%;
+  height: 100vh;
+}
+.content .display{
+margin: 40px 40px 40px 40px ;
+height: 100%;
+
+}
+ul{
+  list-style: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.nav ul {
+  display: flex;
+  
+}
+.nav .main-nav{
+  margin-left: 50px;
+}
+.nav .main-nav li{
+  padding: 10px;
+}
+.nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav ul li a:hover{
+  padding: 2px;
+  background-color:rgb(169, 169, 169,0.4);
+}
+
+
+
+.nav .right-nav i{
+  margin: 5px;
+  cursor: pointer;
+}
+
+.nav .right-nav{
+
+  position: absolute;
+  top: 40px;
+  right: 200px;
+ }
+ 
+/*card*/
+
+ 
+  table {
+    text-align: center;
+    font-family: cursive;
+   margin: auto;
+   width: 80%;
+   height: 80%;
+  }
+ 
+  .head {
+    width: 60%;
+    background-color: turquoise;
+    color: aliceblue;
+  }
+  .week {
+   
+    background-color: turquoise;
+  }
+  .num {
+    background-color: turquoise;
+  }
+  .time { background-color: turquoise;
+  }
+  .curriculum {
+   
+    background-color: white;
+    max-width: 10px;
+   height: 100px;
+  }
+  .nav .main-nav .drop-down-menu{
+    position: absolute;
+    width: 55px;
+    height: 20px;
+    top: 50px;
+   display:flex;
+   flex-direction: column;
+  
+   
+  
+  
+  }
+  .nav .main-nav .drop-down-menu li{
+   
+    display: none;
+    width: 100px;
+    min-width: 20px;
+    white-space: nowrap;
+    padding: 30px 0 0 0;
+  }
+  .nav .main-nav .drop-down-menu li a{
+    color: aliceblue;
+    background-color: darkcyan;
+  }
+  .nav .main-nav li .drop-down-menu:hover li {
+    display: block;
+   }
+  p{
+      
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    padding: 1px;
+    margin:  auto;
+  }
+  .contact {
+    background-color: turquoise;
+  }
+  .web {
+    background-color: turquoise;
+  }
+  .web a{
+    text-decoration: none;
+  }
+  .email {
+    background-color: turquoise;
+  }
+  /*.name {
+    border: solid 2px darkblue;
+  }
+  */
+  
