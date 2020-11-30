@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans Condensed';
+  padding: 20px 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+// Header
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  margin-bottom: 25px;
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+  }
+
+  .options {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+
+    .option {
+      padding: 10px 15px;
+    }
+
+    .cart-icon {
+      width: 45px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      .shopping-icon {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
+
+// Homepage
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .directory-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+    .menu-item {
+      display: flex;
+      flex: 1 1 auto;
+      width: 30%;
+      height: 240px;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      margin: 7px;
+      overflow: hidden;
+
+      &.large {
+        height: 320px;
+      }
+
+      .background-image {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+      }
+
+      & img {
+        object-fit: cover;
+      }
+
+      .content {
+        height: 90px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        background-color: white;
+        opacity: 0.5;
+        position: absolute;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        .title {
+          font-size: 20px;
+          font-weight: bold;
+          color: #4a4a4a;
+          margin: 10 6px 0;
+        }
+
+        .subtitle {
+          font-size: 14px;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+}
+.title_shop{
+  margin-left: 10px;
+  
+}
+.layer{
+  display: flex;
+  flex-wrap: wrap;
+  height: 350px;
+  margin-bottom: 50px;
+}
+.shop-page{
+  display: flex;
+  align-items: center;
+  
+  .collection-page{
+    
+    .title{
+      display: flex;
+      justify-content: center;
+    }
+   
+    .items{
+      display: flex;
+      
+      flex-wrap: wrap;
+      
+      width: 100%;
+      .collection-item{
+        display: flex;
+        flex-direction: column;
+        width: 270px;
+        
+          margin: 10px;
+        .image{
+          overflow: hidden;
+          height: 300px;
+        }
+        .collection-footer{
+          display: flex;
+          margin: 4px;
+          .price{
+            margin-left: auto;
+          }
+          
+          
+        }
+      }
+    }
+
+  }
+
+}
