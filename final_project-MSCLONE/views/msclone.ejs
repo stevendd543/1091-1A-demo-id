@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Microsoft Clone</title>
+  </head>
+  <body>
+    <div class="menu-btn">
+      <i class="fas fa-bars fa-2x"></i>
+    </div>
+    <div class="container">
+      <!-- NAV -->
+      <div class="main-nav">
+        <img src="./img/logo.png" alt="Microsoft" class="logo" />
+        <ul class="main-menu">
+          <li>
+            <a href="#">Office</a>
+          </li>
+          <li>
+            <a href="#">Windows</a>
+          </li>
+          <li>
+            <a href="#">Surface</a>
+          </li>
+          <li>
+            <a href="#">Xbox</a>
+          </li>
+          <li>
+            <a href="#">Deals</a<ul class="right-menu">
+              <li>
+                <a href="#home-card-2-section">homecards</a>
+              </li>
+    
+              <li>
+                <i class="fas fa-search"></i>
+              </li>
+              <li>
+                <i class="fas fa-shopping-cart"></i>
+              </li>
+            </ul>>
+          </li>
+          <li>
+            <a href="#">Support</a>
+          </li>
+        </ul>
+        
+      </div>
+
+      <!-- Showcase -->
+      <header class="showcase">
+        <h2>Microsoft 365</h2>
+       
+        <P>內含進階版 Office 應用程式、高達 6 TB 的雲端儲存空間 (每人 1 TB)</p>
+        <a href="#" class="btn">
+          Shop Now <i class="fas fa-chevron-right"></i>
+        </a>
+      </header>
+      <!-- Home card 1 -->
+      <section class="home-cards">
+        <div>
+          <img src="<%=data[0].local_url%>" alt="" />
+          <h3>Surface Laptop 3</h3>
+          <p>
+            透過纖薄、輕巧且優雅的設計、更快的效能和長達 11.5 小時的電池續航力，強而有力地展現自我。
+          </p>
+          <a href="#"> Learn More <i class="fas fa-chevron-right"></i> </a>
+        </div>
+        <div>
+          <img src="<%=data[1].local_url%>" alt="" />
+          <h3>全新 Surface Laptop Go</h3>
+          <p>
+            運用時尚和效能兼具、最輕巧的 Surface 筆記型電腦，善加利用每一天。
+          </p>
+          <a href="#"> Learn More <i class="fas fa-chevron-right"></i> </a>
+        </div>
+        <div>
+          <img src="<%=data[2].local_url%>" alt="" />
+          <h3>Xbox Game Pass Ultimate</h3>
+          <p>
+            前 3 個月 Xbox Game Pass Ultimate 會員資格只要 NT$30。 現在包含 EA Play。 僅限新訂閱者。
+          </p>
+          <a href="#"> Learn More <i class="fas fa-chevron-right"></i> </a>
+        </div>
+        <div>
+          <img src="<%=data[3].local_url%>" alt="" />
+          <h3>全新 Microsoft Edge 簡介</h3>
+          <p>
+            在您瀏覽時提供世界級的效能，以及更多的隱私、更充足的生產力與更高的價值。
+          </p>
+          <a href="#"> Learn More <i class="fas fa-chevron-right"></i> </a>
+        </div>
+      </section>
+      <!-- Xbox -->
+      <section class="xbox">
+        <div class="content">
+          <h2>Microsoft OneDrive</h2>
+          <p>
+            將檔案和相片儲存到 OneDrive，即可隨時隨地從任何裝置存取
+          </p>
+         
+          <a href="#" class="btn">
+            Join Now <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- Home card 2 -->
+      <section class="home-cards" id="home-card-2-section">
+        <div>
+          <img src="<%=data[4].local_url%>" alt="" />
+          <h3>適用於商務的 Surface</h3>
+          <p>
+            無論從事哪種工作，都有一款有助於成功的 Surface。
+          </p>
+          <a href="#"> Learn More <i class="fas fa-chevron-right"></i> </a>
+        </div>
+        <div>
+          <img src="<%=data[5].local_url%>" alt="" />
+          <h3>Microsoft 365 商務版</h3>
+          <p>
+            透過功能強大的應用程式提高生產力、聯繫和安全，始終領先一步。
+          </p>
+          <a href="#"> Learn More <i class="fas fa-chevron-right"></i> </a>
+        </div>
+        <div>
+          <img src="<%=data[6].local_url%>" alt="" />
+          <h3>Microsoft Teams</h3>
+          <p>
+            聊天、開會、通話和共同作業。
+            </p>
+          <a href="#"> Learn More <i class="fas fa-chevron-right"></i> </a>
+        </div>
+        <div>
+          <img src="<%=data[7].local_url%>" alt="" />
+          <h3>工作的復原力</h3>
+          <p>
+            使用 Microsoft Teams，團隊無論身在何處都能保持聯繫。</p>
+          <a href="#"> Learn More <i class="fas fa-chevron-right"></i> </a>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
